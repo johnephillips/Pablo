@@ -1,0 +1,20 @@
+Ground height: 70
+Gravity: 1
+Max Coin: 5
+Number of platforms: 13
+Height of platforms: 20
+Width of platforms: 170
+Location of platforms:
+1: 60, 200
+2: 315, 115
+3: 340, 300
+4: 700, 385
+5: 120, 385
+6: 930, 250
+7: 60, 525
+8: 825, 115
+9: 315, 600
+10: 560, 520
+11: 870, 600
+12: 580, 240
+13: 980, 475
