@@ -2,7 +2,7 @@
 #include "Declarations.h"
 #include <stdio.h>
 
-//checks if the character collide with the side of a platform (1 for left, 2 for right)
+//checks if the character collides with the side of a platform (1 for left, 2 for right)
 int sideCollision(BITMAP *bitmap1, int posX1, int posY1, int velX1, BITMAP *bitmap2, int posX2, int posY2, int velX2)
 {
     if (posY1 <= posY2 + bitmap2->h && posY1 + bitmap1->h >= posY2) 
@@ -21,7 +21,7 @@ int sideCollision(BITMAP *bitmap1, int posX1, int posY1, int velX1, BITMAP *bitm
     return 0;
 }
 
-//checks if the character collide with the top or bottom of a platform (1 for top, 2 for bottom)
+//checks if the character collides with the top or bottom of a platform (1 for top, 2 for bottom)
 int topBotCollision(BITMAP *bitmap1, int posX1, int posY1, int velY1, BITMAP *bitmap2, int posX2, int posY2, int velY2)
 {
     if (posX1 + bitmap1->w >= posX2 && posX1 <= posX2 + bitmap2->w)
